@@ -1,0 +1,672 @@
+*{
+    margin: 0;
+    padding: 0;
+}
+
+.pre-header{
+    background-color: #111618;
+    height: 60px;
+    color: white;
+    padding-top: 15px;
+}
+
+.pre-header .sec-menu{
+    list-style: none;
+}
+
+.pre-header .sec-menu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.pre-header .sec-menu li a{
+    color: #707374;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.pre-header .sec-menu li a:hover{
+    color: #a0a0a0;
+}
+
+.main-nav .main-menu {
+    list-style: none;
+    margin-top: 20px;
+}
+
+.main-nav .main-menu li{
+    display: inline-block;
+    margin-left: 15px;
+}
+
+.main-nav .main-menu li a{
+    color: #767676;
+    text-transform: uppercase;
+    text-decoration: none;
+    transition: 0.3s;
+}
+
+.main-nav .main-menu li a:hover{
+    color: #4f33f1;
+}
+
+.main-nav img{
+    margin-top: 15px;
+}
+
+
+.main-nav .main-menu .f-q-btn a:hover{
+    background: transparent;
+    color: #4f33f1 !important;
+}
+
+.hero{
+    background-image: url('hero.jpg');
+    background-size: cover;
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.hero h1{
+    color: #fff;
+    text-transform: uppercase;
+    font-size: 65px;
+}
+
+.hero p{
+    color: #fff;
+    margin-top: 30px;
+    margin-bottom: 30px;
+}
+
+.main-cta-btn {
+    color: #fff !important; 
+    background-color: #4f33f1;
+    transition: 0.3s;
+    padding: 10px;
+    display: inline-block;
+    clip-path: polygon(0 0, 100% 0, 100% 70%, 82% 100%, 0 100%);
+    border: 2px solid #4f33f1;
+    text-decoration: none;
+    font-weight: bold;
+    font-size: 15px;
+    text-transform: uppercase;
+}
+
+.main-cta-btn:hover{
+    color: #707374 !important;
+    background: transparent;
+    text-decoration: none;
+}
+
+.services{
+    padding-top: 120px;
+    padding-bottom: 120px;
+}
+
+.services h3{
+    color: #5b0094;
+    text-align: center;
+    text-transform: uppercase;
+    font-size: 18px;
+    font-weight: bold;
+}
+
+.services h2{
+    text-transform: uppercase;
+    text-align: center;
+    color: #1b1f20;
+}
+
+.services p{
+    text-align: center;
+    margin-bottom: 50px;
+}
+
+.services .service-items{
+    color: #fff;
+    text-align: center;
+    background-color: #1b1f20;
+    -webkit-box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.5);
+    -moz-box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.5);
+    box-shadow: 0px 5px 10px 3px rgba(0,0,0,0.5);
+    max-width: 300px;
+    margin-bottom: 20px;
+    cursor: pointer;
+    padding: 20px;
+    transition: 0.3s;
+}
+
+.services .service-items:hover{
+    background-color: #4c007b;
+    margin-top: -10px;
+}
+
+.services img{
+    max-width: 100%;
+}
+
+.services .service-items a{
+    text-decoration: none;
+    color: #fff;
+    border: 3px solid #fff;
+    display: inline-block;
+    text-transform: uppercase;
+    padding: 5px;
+    font-size: 14px;
+}
+
+
+.services .service-items h4{
+    text-transform: uppercase;
+}
+
+.how-it-works{
+    background-image: url('home1.jpg');
+    padding-top: 100px;
+    background-size: cover;
+    text-align: center;
+}
+
+.how-it-works h3{
+    color: #9700f5;
+    text-transform: uppercase;
+    margin-bottom: 20px;
+}
+
+.how-it-works h2{
+    color: #fff;
+    text-transform: uppercase;
+}
+
+.how-it-works p{
+    color: #fff;
+    margin-bottom: 50px;
+    margin: 10px;
+}
+
+.how-it-works .vid{
+    margin-bottom: -30px;
+    max-width: 80%;
+}
+
+.school
+{
+    padding-top: 80px;
+}
+
+
+.school .container
+{
+    text-align: center;
+    text-align: center;
+}
+
+.school h3
+{
+    text-transform: uppercase;
+    color: #7a579c;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 2px dotted #8000ff;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+}
+
+.school h2
+{
+    text-transform: uppercase;
+
+}
+
+.school .slika 
+{
+    background-image: url('event.jpg');
+    clip-path: polygon(0 0, 100% 0, 100% 92%, 95% 100%, 0 100%);
+}
+
+.school .ov 
+{
+    background-color: rgba(0,0,0,0.5);
+    height: 100%;
+    padding: 50px;
+    margin-bottom: 80px;
+}
+
+.school p
+{
+    color: #767676;
+}
+
+.school .cd 
+{
+    color: #ffffff;
+    font-size: 40px;
+    border: 3px dotted #767676;
+    display: inline-block;
+    margin: 18px;
+    padding: 5px;
+}
+
+.school h4
+{
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 20px;
+    font-size: 50px;
+}
+
+.school .pp span
+{
+    color: rgb(160, 155, 155);
+}
+
+.school .pp p
+{
+    text-transform: uppercase;
+    color: #ffffff;
+    font-weight: bold;
+}
+
+.school span
+{
+    background-color: #2431a1;
+    margin-right: 10px;
+    padding-left: 4px;
+    font-weight: bold;
+    clip-path: polygon(0 0, 100% 0, 100% 72%, 91% 100%, 0 100%);
+}
+
+.school .main-cta-btn
+{
+    display: inline-block;
+    margin-top: 10px;
+    text-transform: uppercase;
+    border: 0px;
+    clip-path: polygon(0 0, 80% 1%, 100% 50%, 80% 100%, 0 100%);
+}
+
+.school .main-cta-btn:hover
+{
+    color: #ffffff !important;
+    background-color: #11195e;
+    text-decoration: none;
+    background-size: cover;
+}
+
+.school .boja p
+{
+    color: #ffffff;
+}
+
+.about{
+    background-image: url("home2.jpg");
+    background-size: cover;
+    color: #fff;
+    padding-top: 100px;
+    padding-bottom: 100px;
+}
+
+.about h3{
+    font-size: 18px;
+    text-transform: uppercase;
+    position: relative;
+    padding-left: 15px;
+    padding-bottom: 5px;
+    border-bottom: 3px dotted #7c7586;
+}
+
+.about ul{
+    margin-left: 20px;
+}
+
+.about h3:before{
+    position: absolute;
+    content: " ";
+    width: 10px;
+    height: 10px;
+    background-color: #170097;
+    left: 0px;
+    top: 5px;
+}
+
+.about img{
+    /* width: 400px; */
+    max-width: 100%;
+}
+
+
+/* 3:17:10 */
+
+
+.Price .container
+ {
+    text-align: center;
+ }
+ 
+ .Price h3
+ {
+    margin-top: 30px;
+    text-transform: uppercase;
+    color: #7a579c;
+    font-size: 18px;
+    cursor: pointer;
+    display: inline-block;
+    border-bottom: 2px dotted #8000ff;
+    padding-bottom: 1px;
+    margin-bottom: 10px;
+    margin-top: 80px;
+ }
+ 
+ .Price h2
+ {
+    text-transform: uppercase;
+ }
+
+ .Price .op
+ {
+    display: inline-block;
+    margin: 20px;
+ }
+
+
+ .Price .text 
+ {
+    margin-bottom: 50px;
+ }
+
+ .Price .op ul
+ {
+    margin-top: 10px;
+    margin-right: 30px;
+    margin-left: 30px;
+ }
+
+
+
+ .Price .pozadina
+{
+    background-color: #1b1b1b;
+    padding: 10px;
+    color: white;
+    transition: 0.3s;
+    cursor: pointer;
+    -webkit-box-shadow: -4px 4px 7px 0px rgba(0,0,0,0.8); 
+    box-shadow: -4px 4px 7px 0px rgba(0,0,0,0.8);
+}
+
+.Price a
+{
+    display: inline-block;
+    margin: 10px;
+}
+
+.Price .main-cta-btn:hover
+{
+    color: #9b8afc !important;
+    background-color: transparent;
+    text-decoration: none;
+    background-size: cover;
+}
+
+.Price h4
+{
+    text-transform: uppercase;
+    color: white;
+}
+
+.Price .pozadina p
+{
+    color: rgb(168, 147, 147);
+}
+
+.Price .op ul li
+{
+    border-bottom: 2px dotted rgb(66, 9, 88);
+    margin: 10px;
+    list-style: circle;
+}
+
+.Price .pozadina:hover
+{
+    background-image: linear-gradient(to top, rgb(47, 6, 51), rgb(146, 17, 185));
+    margin-top: -10px;
+}
+.Price .main
+{
+    font-size: 60px;
+}
+.Price .dollar
+{
+    font-size: 30px;
+}
+
+.Price .sec 
+{
+    position: relative;
+    top: -30px;
+}
+
+.Price .month
+{
+    position: relative;
+    left: -23px;
+}
+
+.Price .cena 
+{
+    border-top: 5px dotted rgb(156, 149, 149);
+    border-bottom: 5px dotted rgb(156, 149, 149);
+}
+
+
+
+.p15
+{
+    background-image: url('home2.jpg');
+    background-size: cover;
+    margin-top: 100px;
+}
+
+.p15 h2
+{
+    text-align: center;
+    text-transform: uppercase;
+    color: #ffffff;
+    padding-top: 80px;
+}
+
+.p15 h3
+{
+    padding-bottom: 15px;
+}
+
+.p15 .text p
+{
+    text-align: center;
+    color: #ffffff;
+    padding-bottom: 30px;
+}
+
+.p15 .boja
+{
+    color: #ffffff;
+}
+
+.p15 h4
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 2px dotted #767676;
+    padding-bottom: 3px;
+    margin-bottom: 20px;
+}
+
+.p15 h4:before
+{
+    content: "";
+   display: inline-block;
+   background-color: blue;
+   width: 7px;
+   height: 13px;
+   margin-right: 10px;
+}
+
+.p15 h5
+{
+    text-transform: uppercase;
+    font-size: 15px;
+    border-bottom: 2px dotted #767676;
+    padding-bottom: 3px;
+    margin-bottom: 10px;
+    padding-top: 10px;
+}
+.p15 h5:before
+{
+    content: "";
+   display: inline-block;
+   background-color: rgb(255, 255, 255);
+   width: 7px;
+   height: 13px;
+   margin-right: 10px;
+}
+
+.p15 form
+{
+    background-color: rgba(0,0,0,0.5);
+    border: 1px solid rgb(255, 255, 255);
+    padding: 30px;
+}
+
+.p15 form textarea, .p15 form input, .p15 form button
+{
+    width: 100%;
+    margin: 10px;
+}
+
+.p15 form button
+{
+    background-color: rgb(0, 119, 255);
+    clip-path: polygon(0 0, 100% 0%, 100% 64%, 93% 100%, 0 100%);
+    margin-top: 41px;
+}
+
+.p15 form button:hover
+{
+    background-color: rgb(57, 60, 218);
+    font-weight: bold;
+}
+
+ .p15 form input, .p15 form button
+ {
+     padding: 8px;
+ }
+ .p15 form textarea
+ {
+     padding: 10px;
+ }
+
+ .p15 label
+ {
+    color: #ffffff;
+    font-weight: bold;
+    margin: 0px;
+ }
+
+.p15 .col-md-7 
+{
+    margin-bottom: 20px;
+}
+
+
+.logo .log 
+{
+    padding-top: 0px;
+}
+
+.logo
+{
+    margin-top: 100px;
+}
+
+.logo ul
+{
+    margin: 35px;
+}
+
+.logo li
+{
+    margin: 5px;
+    list-style: none;
+}
+
+
+.logo li a
+{
+    text-transform: uppercase;
+    font-weight: bold;
+    font-size: 13px;
+    color: #767676;
+    text-decoration: none;
+}
+
+
+.logo .kako i
+{
+    margin: 5px;
+    font-size: 20px;
+    color: #11195e;
+}
+
+.logo h3
+{
+    text-transform: uppercase;
+    font-size: 20px;
+    font-weight: bold;
+    border-bottom: 2px dotted rgb(187, 185, 185);
+}
+
+.logo h3:before
+{
+    height: 11px;
+    width: 6px;
+    background-color: #3810a5;
+    content: "";
+    display: inline-block;
+    margin-right: 4px;
+    margin-bottom: 2px;
+}
+
+
+
+.kraj
+{
+    background-color: rgb(43, 43, 43);
+}
+
+.kraj h3
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 21px;
+}
+
+.kraj .main-menu
+{
+    color: white;
+    text-transform: uppercase;
+    font-size: 14px;
+    font-weight: bold;
+    margin-top: 5px;
+    
+}
+
+.kraj .main-menu li
+{
+    display: inline-block;
+    margin: 14px;
+}
